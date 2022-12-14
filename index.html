@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <title>Prova_desembre</title>
+    <script>
+     
+        function edat(){
+            alert('benvingut' +  nom + adreca + edat)
+            var nom = document.getElementById("nom").value;
+            var adreça = document.getElementById("adreça").value;
+            var edat = document.getElementById("edat").value;
+        }
+    </script>
+</head>
+<body>
+    <h1 class="pont" id="pont">PONT</h1>
+    <p class="pont">hola <br> bon dia</p>
+    <hr>
+    <br>
+    <p onclick="this.style.color='blue'">nom <input type="text" id="nom"></p>
+    adreca <input type="text" id="adreça" onblur="edat()" >
+    <br>
+    <p  ondblclick="this.style.color='pink'">edat <input type="text" id="edat"> </p>
+
+    </body>
+</html>
